@@ -1,6 +1,10 @@
 const React = require('react')
 const Def = require('../default')
 
+router.get('/new', (req, res) => {
+  res.render('places/new')
+})
+
 function new_form () {
     return (
         <Def>
