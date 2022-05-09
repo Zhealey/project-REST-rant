@@ -20,6 +20,16 @@ function index (data) {
       </div>
     )
   })
-}  
+
+  
+  return (
+    <Def>
+      <main className="my-2">
+        <h1>Places to Rant or Rave About</h1>
+        <div className="row">{placesFormatted}</div>
+      </main>
+    </Def>
+  );
+}
 
 module.exports = index 
